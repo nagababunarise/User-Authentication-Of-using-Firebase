@@ -1,0 +1,66 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.register-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(239, 239, 239);
+  padding: 30px 50px 50px 50px;
+  border-radius: 20px;
+  width: 40%;
+}
+.register-container form h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.register-container form label {
+  color: #2d2c2c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 14px;
+}
+.register-container form input {
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  min-width: 90%;
+  margin: 5px 0 10px 0;
+  border-radius: 5px;
+  border: 0;
+}
+.register-container form input::placeholder {
+  font-weight: 400;
+}
+.register-container form div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-container form div button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: rgb(6, 118, 238);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  border: 0;
+  cursor: pointer;
+}
+.register-container form p {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: auto;
+}
+.register-container form p span {
+  color: rgb(50, 6, 247);
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
